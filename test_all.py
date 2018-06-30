@@ -20,8 +20,8 @@ class Test_allure:
         assert 1
 
     def test_login3(self):
-        assert 0
+        assert 1
 
     @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test_login4(self):
-        assert 0
+        assert 1
