@@ -25,3 +25,11 @@ class Test_allure:
     @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test_login4(self):
         assert 1
+        assert 1
+
+    def test_login5(self):
+        assert 0
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test_login6(self):
+        assert 0
